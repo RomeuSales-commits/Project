@@ -1,0 +1,91 @@
+body {
+  font-family: Arial;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 380px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.summary div {
+  text-align: center;
+}
+
+.income p {
+  color: green;
+}
+
+.expense p {
+  color: red;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 14px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  background: #f8f9fa;
+  padding: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  border-right: 5px solid;
+}
+
+li.plus {
+  border-color: green;
+}
+
+li.minus {
+  border-color: red;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
