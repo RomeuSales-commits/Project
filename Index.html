@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Controle Financeiro Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>💰 Controle Financeiro</h1>
+
+  <div class="summary">
+    <div>
+      <h3>Saldo</h3>
+      <p id="balance">R$ 0.00</p>
+    </div>
+    <div class="income">
+      <h3>Receitas</h3>
+      <p id="money-plus">R$ 0.00</p>
+    </div>
+    <div class="expense">
+      <h3>Despesas</h3>
+      <p id="money-minus">R$ 0.00</p>
+    </div>
+  </div>
+
+  <form id="form">
+    <input type="text" id="text" placeholder="Descrição" required>
+    <input type="number" id="amount" placeholder="Valor (+ entrada, - saída)" required>
+    <button>Adicionar</button>
+  </form>
+
+  <ul id="list"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
